@@ -1,0 +1,20 @@
+{
+  "headerAndFooter":{
+    "about": "Sobre mim!",
+    "footer": "Desenvolvido por Lucas Lozardo C. © 2025"
+  },
+  
+  "index":{
+    "title": "Backend Developer | Java & Spring Boot",
+    "description": "Sou desenvolvedor backend com 3 anos de experiência em Java. Tenho foco na criação de APIs RESTful utilizando o framework Spring Boot, com persistência de dados em bancos relacionais como PostgreSQL e H2 DataBase. Tenho familiaridade com boas práticas de desenvolvimento, como princípios SOLID, testes automatizados com JUnit e versionamento de código com Git. Atualmente, estou ampliando meus conhecimentos para além do backend, estudando HTML e CSS com o objetivo de entender melhor o funcionamento da camada de apresentação e como ela se comunica com as APIs que desenvolvo. Essa jornada está me ajudando a construir projetos completos, mesmo que simples, e aprimorar minha visão de desenvolvimento web como um todo.",
+    "contact": "Acesse minhas redes sociais ou entre em contato por e-mail:"
+  },
+
+  "about":{
+    "titleAbout": "Sobre mim!",
+    "descriptionP1": "Sou movido por desafios e aprendizado constante. Após uma sólida trajetória na área de segurança pública, redirecionei meu foco para o desenvolvimento de software, com ênfase no backend Java e na construção de APIs RESTful utilizando Spring Boot.",
+    "descriptionP2": "Atualmente curso Engenharia de Software na USF (Universidade São Francisco), tendo já concluído dois anos na Universidade Cruzeiro do Sul (EAD). Tenho me dedicado a projetos de estudo com PostgreSQL, H2 Database, Git, HTML e CSS, buscando aprofundar o entendimento da estrutura de aplicações web modernas.",
+    "descriptionP3": "Tenho me preparado para atuar também como freelancer e ampliar horizontes no mercado internacional, aprimorando minha base técnica e a proficiência em inglês. Estou em constante evolução e em busca de ambientes colaborativos onde possa crescer profissionalmente e contribuir com soluções eficientes e bem estruturadas."
+  }
+  
+}

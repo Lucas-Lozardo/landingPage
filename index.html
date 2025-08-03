@@ -10,16 +10,20 @@
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" id="about" href="about.html">Sobre mim</a>
+        <nav>
+            <button onclick="setLanguage('pt')">Português</button>
+            <button onclick="setLanguage('en')">English</button>
+        </nav>
         </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Backend Developer | Java & Spring Boot</h1>
-            <p class="apresentacao__conteudo__texto">Sou desenvolvedor backend com <strong>3 anos de experiência em Java</strong>. Tenho foco na criação de <strong>APIs RESTful</strong> utilizando o framework <strong>Spring Boot</strong>, com persistência de dados em bancos relacionais como <strong>PostgreSQL e H2 DataBase</strong>. Tenho familiaridade com boas práticas de desenvolvimento, como princípios SOLID, testes automatizados com JUnit e versionamento de código com Git.
+            <h1 class="apresentacao__conteudo__titulo" id="title">Backend Developer | Java & Spring Boot</h1>
+            <p class="apresentacao__conteudo__texto" id="description">Sou desenvolvedor backend com <strong>3 anos de experiência em Java</strong>. Tenho foco na criação de <strong>APIs RESTful</strong> utilizando o framework <strong>Spring Boot</strong>, com persistência de dados em bancos relacionais como <strong>PostgreSQL e H2 DataBase</strong>. Tenho familiaridade com boas práticas de desenvolvimento, como princípios SOLID, testes automatizados com JUnit e versionamento de código com Git.
             Atualmente, estou ampliando meus conhecimentos para além do backend, estudando HTML e CSS com o objetivo de entender melhor o funcionamento da camada de apresentação e como ela se comunica com as APIs que desenvolvo. Essa jornada está me ajudando a construir projetos completos, mesmo que simples, e aprimorar minha visão de desenvolvimento web como um todo.</p>
             <div>
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes sociais ou entre em contato por e-mail:</h2>
+                <h2 class="apresentacao__links__subtitulo" id="contact">Acesse minhas redes sociais ou entre em contato por e-mail:</h2>
                 <div class="apresentacao__links__links">
                     <a class="apresentacao__links__link" href="https://www.linkedin.com/in/lucas-lozardo/">
                         <img src="/assets/linkedinAzul.png" alt="LinkedIn" width="100">
@@ -35,8 +39,9 @@
         </section>
         <img class="apresentacao__imagem" src="/assets/eagle.png" alt="Imagem" width="60">
     </main>
-    <footer class="rodape">
+    <footer class="rodape" id="footer">
         <p>Desenvolvido por Lucas Lozardo C. © 2025</p>
     </footer>
+    <script src="js/lang.js"></script>
 </body>
 </html>
