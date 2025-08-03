@@ -1,0 +1,132 @@
+:root{
+    --cor--primaria: #3C7BCF;
+    --cor--segundaria: #04BFBF;
+    --cor--terciaria: #023859;
+    --cor--quartenaria: #D9A404;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-image: url("/assets/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black;
+    color: var(--cor--segundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 8%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    border: 2px solid transparent;
+    padding: 8px;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.70rem;
+    color: var(--cor--primaria);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.35rem;
+    text-align: justify;
+}
+
+.apresentacao__links__subtitulo{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    color:  var(--cor--primaria);
+    font-size: 1.50rem;
+}
+
+.apresentacao__links__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.apresentacao__links__link{
+  border: 2px solid transparent;
+  padding: 8px;
+}
+
+.apresentacao__imagem{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.rodape{
+    color:aliceblue;
+    background-color: var(--cor--terciaria);
+    padding: 23.64px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.cabecalho__menu__link:hover{
+    border: 2px solid var(--cor--quartenaria);
+    border-radius: 16px;
+    transition: border 0.7s ease;
+    padding: 8px;
+}
+
+.apresentacao__links__link:hover{
+    border: 2px solid var(--cor--quartenaria);
+    border-radius: 16px;
+    transition: border 0.7s ease;
+    padding: 8px;
+}
+
+
+@media (max-width: 900px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
