@@ -26,10 +26,13 @@ body{
 
 .cabecalho__menu{
     display: flex;
+    align-items: center;
     gap: 80px;
 }
 
 .cabecalho__menu__link{
+    display: flex;
+    justify-content: flex-start;
     border: 2px solid transparent;
     padding: 8px;
     color: var(--cor-terciaria);
@@ -37,6 +40,25 @@ body{
     font-weight: 600;
     font-size: 1.5rem;
     text-decoration: none;
+}
+
+.cabecalho__langSelector{
+    display: flex;
+    justify-content: flex-end;
+    padding: 00px 20px 0px 0px;
+    font-size: 1.5rem;
+}
+
+.cabecalho__langSelector__phrase{
+    margin-right: 12px;
+}
+
+.cabecalho__langSelector__boxText{
+    border-radius: 16px;
+    border: 2px solid var(--cor--quartenaria);
+    color: var(--cor--quartenaria);
+    background-color: var(--cor--terciaria);
+    text-align: center;
 }
 
 .apresentacao{

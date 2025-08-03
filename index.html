@@ -8,13 +8,16 @@
 </head>
 <body>
     <header class="cabecalho">
+        <nav class="cabecalho__langSelector">
+            <label for="lang" class="cabecalho__langSelector__phrase">Idioma da página</label>
+            <select class="cabecalho__langSelector__boxText" onchange="setLanguage(this.value)">
+                <option value="pt">Portugês BR</option>
+                <option value="en">Inglês EN</option>
+            </select>
+        </nav>
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
             <a class="cabecalho__menu__link" id="about" href="about.html">Sobre mim</a>
-        <nav>
-            <button onclick="setLanguage('pt')">Português</button>
-            <button onclick="setLanguage('en')">English</button>
-        </nav>
         </nav>
     </header>
     <main class="apresentacao">
@@ -42,6 +45,6 @@
     <footer class="rodape" id="footer">
         <p>Desenvolvido por Lucas Lozardo C. © 2025</p>
     </footer>
-    <script src="js/lang.js"></script>
+    <script src="js/lang.js" defer></script>
 </body>
 </html>
