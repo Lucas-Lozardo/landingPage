@@ -114,6 +114,10 @@ body{
     padding-left: 50px;
 }
 
+.image__about{
+    width: 55%;
+}
+
 .rodape{
     color:aliceblue;
     background-color: var(--cor--terciaria);
@@ -167,4 +171,9 @@ body{
         justify-content: center
         
     }
+
+    .image__about{
+    width: 80%;
+}
+
 }
