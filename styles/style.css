@@ -142,6 +142,10 @@ body{
 
 
 @media (max-width: 1000px){
+    .body{
+        background-color: url("/assets/images/fundoPequeno.avif");
+    }
+    
     .cabecalho{
         padding: 01% 01%;
     }
